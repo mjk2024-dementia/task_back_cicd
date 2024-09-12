@@ -9,7 +9,7 @@ app.use(express.json()); // express에 json 사용
 app.use(cors());
 
 app.get('/', (req, res) => {
-  res.send('Hello World http test completed');
+  res.send('Hello World http test completed!!!!');
 });
 
 app.get('/test_db', async (req, res) => {
